@@ -5,7 +5,6 @@ notifications:
 email:
 recipients:
 - katarzyna_wojcik1@o2.pl
-- 180311@edu.p.lodz.pl
 on_success: always
 on_failure: always
 script:

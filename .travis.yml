@@ -2,10 +2,8 @@ language: java
 jdk:
   - oraclejdk8
 notifications:
-email:
-recipients:
-- katarzyna_wojcik1@o2.pl
-on_success: always
-on_failure: always
+  email:
+    - 180311@edu.p.lodz.pl
+    - katarzyna_wojcik1@o2.pl
 script:
   - mvn clean verify

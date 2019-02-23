@@ -3,8 +3,9 @@ jdk:
   - oraclejdk8
 notifications:
   email:
-    - katarzyna0wojcik@gmail.com
-    on_success: always
-    on_failure: always
+    recipients:
+      - katarzyna0wojcik@gmail.com
+    on_success: never # default: change
+    on_failure: always # default: always
 script:
   - mvn clean verify
